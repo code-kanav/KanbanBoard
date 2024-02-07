@@ -54,12 +54,12 @@
 
 @media screen and (max-width: 768px) {
     .card{
-        position: relative;
-        border: 2px solid rgb(167, 167, 167);
+        border: 2px solid #a7a7a7;
         border-radius: 12px;
+        height: 125px;
+        margin: 6px 0;
         padding: 10px;
-        margin: 6px 0px;
-        width: 330px;
-        height: 115px;
+        position: relative;
+        width: -webkit-fill-available;
     }
   }
