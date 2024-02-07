@@ -1,0 +1,14 @@
+.navbar{
+    background-color: purple;
+}
+
+.container{
+    max-width: 1100px;
+    margin: auto;
+}
+
+.logo{
+    margin: 0;
+    padding: 20px 10px; 
+    color: white;
+}

@@ -1,0 +1,46 @@
+.kanbanBoard{
+    width: 100%;
+    background-color: rgb(250, 250, 250);
+    padding: 20px;
+    margin: 10px 0;
+    display: flex;
+    gap: 40px;
+    overflow: scroll;
+}
+
+.ticketGroup{
+    display: flex;
+    flex-direction: column;
+}
+
+.boardTitle{
+    display: flex;
+    gap: 10px;
+    justify-content: space-between;
+    padding: 10px 2px;
+    font-size: 20px;
+}
+.boardTitle div{
+    display: flex;
+    gap: 10px;
+}
+
+.boardTitle span{
+    cursor: pointer;
+    display: flex;
+    gap: 10px;
+}
+
+@media screen and (max-width: 768px) {
+    .kanbanBoard{
+        width: auto;
+        background-color: rgb(250, 250, 250);
+        padding: 10px;
+        margin: 2px 0;
+        display: flex;
+        flex-direction: column;
+    }
+    .ticketGroup{
+        align-items: center;
+    }
+  }
